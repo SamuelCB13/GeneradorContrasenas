@@ -2,13 +2,13 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import GitHubIcon from "../../public/icons/githubIcon";
+import GitHubIcon from "../../public/icons/GithubIcon";
 import XIcon from "../../public/icons/XIcon";
-import InstagramIcon from "../../public/icons/instagramIcon";
+import InstagramIcon from "../../public/icons/InstagramIcon";
 
 export default function Navbar() {
     return (
-        <main className="bg-black border-b border-neutral-800 h-16 flex justify-between items-center px-10">
+        <main className="bg-black border-b border-neutral-800 h-[7vh] flex justify-between items-center px-10">
             <nav className="w-full text-white max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
                 {/* Logo y nombre */}
                 <Link href="/" className="flex items-center">

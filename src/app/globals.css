@@ -32,6 +32,15 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: #262626 #000;
+    /* Scroll animado al dar clic a un <a> para ir a una sección */
+    scroll-behavior: smooth;
+}
+
+/* No hacer animación de scroll si el usuario tiene las animaciones desactivadas */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        scroll-behavior: auto;
+    }
 }
 
 @keyframes fadeIn {
@@ -56,4 +65,22 @@
     border: 1px solid #262626 !important;
     font-family: 'Inter', sans-serif !important;
     border-radius: 12px !important;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    border: none;
 }
