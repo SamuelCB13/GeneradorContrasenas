@@ -49,3 +49,11 @@
 .animate-fadeIn {
     animation: fadeIn .5s ease-in-out forwards;
 }
+
+.toast-dark {
+    background-color: #0a0a0a !important;
+    color: white !important;
+    border: 1px solid #262626 !important;
+    font-family: 'Inter', sans-serif !important;
+    border-radius: 12px !important;
+}

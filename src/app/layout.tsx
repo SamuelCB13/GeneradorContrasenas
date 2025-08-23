@@ -1,8 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Toaster } from "@pheralb/toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { XIcon } from "lucide-react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,16 +22,26 @@ export default function RootLayout({
     return (
         <html lang="es">
             <body className={inter.className}>
-                    <div className="flex h-dvh">
-                        {/* Contenido principal */}
-                        <div className="flex flex-col flex-1">
-                            <Navbar />
-                            <main className="flex-1 overflow-y-scroll bg-black">
-                                {children}
-                                <Footer />
-                            </main>
-                        </div>
+                <div className="flex h-dvh">
+                    {/* Contenido principal */}
+                    <div className="flex flex-col flex-1">
+                        <Navbar />
+                        <main className="flex-1 overflow-y-scroll bg-black">
+                            {children}
+                            <Toaster
+                                position="bottom-right"
+                                toastOptions={{
+                                    animationOnClose: "swipe",
+                                    defaultCloseContent: <XIcon />,
+                                    classNames: {
+                                        toast: "toast-dark",
+                                    }
+                                }}
+                            />
+                            <Footer />
+                        </main>
                     </div>
+                </div>
             </body>
         </html>
     );
