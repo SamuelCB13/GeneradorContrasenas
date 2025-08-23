@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import GitHubIcon from "../../public/icons/GithubIcon";
-import XIcon from "../../public/icons/XIcon";
-import InstagramIcon from "../../public/icons/InstagramIcon";
+import GitHubIcon from "@/icons/GithubIcon";
+import XIcon from "@/icons/XIcon";
+import InstagramIcon from "@/icons/InstagramIcon";
 
 export default function Navbar() {
     return (

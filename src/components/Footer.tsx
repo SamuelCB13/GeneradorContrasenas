@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import InstagramIcon from "../../public/icons/InstagramIcon";
-import XIcon from "../../public/icons/XIcon";
-import GitHubIcon from "../../public/icons/GithubIcon";
+import InstagramIcon from "@/icons/InstagramIcon";
+import XIcon from "@/icons/XIcon";
+import GitHubIcon from "@/icons/GithubIcon";
 
 export default function Footer() {
     return (
