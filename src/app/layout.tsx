@@ -22,7 +22,7 @@ export default function RootLayout({
     return (
         <html lang="es">
             <body className={inter.className}>
-                <div className="flex h-dvh">
+                <div className="h-dvh">
                     {/* Contenido principal */}
                     <div className="flex flex-col flex-1">
                         <Navbar />

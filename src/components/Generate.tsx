@@ -97,7 +97,7 @@ export default function Generate() {
     const strength = getPasswordStrength();
 
     return (
-        <main className="flex flex-col justify-center sm:space-y-10 p-3 sm:p-5 bg-black" id="generate">
+        <section className="flex flex-col justify-center sm:space-y-10 p-3 sm:p-5 bg-black" id="generate">
             <section className="flex flex-col items-center justify-center p-5">
                 {/* Título */}
                 <header className="w-full text-center py-4 sm:py-5 px-5 space-y-2">
@@ -238,6 +238,6 @@ export default function Generate() {
                     </div>
                 </article>
             </section>
-        </main>
+        </section>
     );
 }

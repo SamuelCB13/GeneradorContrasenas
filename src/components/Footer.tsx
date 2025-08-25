@@ -8,7 +8,7 @@ import GitHubIcon from "@/icons/GithubIcon";
 
 export default function Footer() {
     return (
-        <main>
+        <section>
             <footer className="bg-black text-white border-t border-neutral-800">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
                     {/* Logo y nombre */}
@@ -64,6 +64,6 @@ export default function Footer() {
                     </p>
                 </div>
             </footer>
-        </main>
+        </section>
     );
 }

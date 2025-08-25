@@ -16,10 +16,10 @@ export default function Home() {
     }, []);
 
     return (
-        <main>
+        <section>
             <Hero />
             <Generate />
             {/* <Verify /> */}
-        </main>
+        </section>
     );
 }

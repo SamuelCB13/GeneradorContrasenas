@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <main className="flex flex-col justify-center sm:space-y-10 xl:h-[93dvh] p-3 sm:p-5 animate-fadeIn">
+        <section className="flex flex-col justify-center sm:space-y-10 xl:h-full p-3 sm:p-5 animate-fadeIn">
             {/* Hero */}
             <section className="flex flex-col items-center justify-center max-w-7xl mx-auto p-5">
                 {/* Espaciador superior */}
@@ -61,6 +61,6 @@ export default function Hero() {
                     <p className="text-base xl:text-lg">Todo lo que necesitas para gestionar tus contraseñas.</p>
                 </article>
             </section>
-        </main>
+        </section>
     )
 }
