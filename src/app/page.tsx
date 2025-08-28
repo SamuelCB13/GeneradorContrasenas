@@ -1,11 +1,12 @@
 "use client";
 
-import Hero from "@/components/Hero";
 import { useEffect } from "react";
 import { toast } from "@pheralb/toast";
+import Hero from "@/components/Hero";
 import Generate from "@/components/Generate";
+import Verify from "@/components/Verify";
 import Recomendaciones from "@/components/Recomendaciones";
-// import Verify from "@/components/Verify";
+import PQRSPage from "@/components/Pqrs";
 
 export default function Home() {
     useEffect(() => {
@@ -20,8 +21,9 @@ export default function Home() {
         <section>
             <Hero />
             <Generate />
-            {/* <Verify /> */}
+            <Verify />
             <Recomendaciones />
+            <PQRSPage />
         </section>
     );
 }

@@ -100,7 +100,7 @@ export default function Generate() {
             {/* Título */}
             <header className="w-full text-center py-4 sm:py-5 px-5 space-y-2">
                 <h1 className="text-3xl lg:text-4xl font-black text-neutral-300 leading-tight">
-                    Generador de contraseñas aleatorias
+                    Generador de Contraseñas Aleatorias
                 </h1>
                 <p className="text-neutral-600 max-sm:max-w-xs max-sm:mx-auto">
                     Genera aquí contraseñas seguras para proteger tu información. 🗝️
@@ -191,7 +191,7 @@ export default function Generate() {
                                     type="checkbox"
                                     checked={includeUppercase}
                                     onChange={(e) => setIncludeUppercase(e.target.checked)}
-                                    className="w-4 h-4 text-purple-600 bg-neutral-900 border-neutral-600 rounded focus:ring-purple-500 accent-green-500"
+                                    className="w-4 h-4 bg-neutral-900 border-neutral-600 rounded accent-green-500"
                                 />
                                 <span className="text-white text-xs md:text-sm">ABC</span>
                             </label>
@@ -200,7 +200,7 @@ export default function Generate() {
                                     type="checkbox"
                                     checked={includeLowercase}
                                     onChange={(e) => setIncludeLowercase(e.target.checked)}
-                                    className="w-4 h-4 text-purple-600 bg-neutral-900 border-neutral-600 rounded focus:ring-purple-500 accent-green-500"
+                                    className="w-4 h-4 bg-neutral-900 border-neutral-600 rounded accent-green-500"
                                 />
                                 <span className="text-white text-xs md:text-sm">abc</span>
                             </label>
@@ -209,7 +209,7 @@ export default function Generate() {
                                     type="checkbox"
                                     checked={includeNumbers}
                                     onChange={(e) => setIncludeNumbers(e.target.checked)}
-                                    className="w-4 h-4 text-purple-600 bg-neutral-900 border-neutral-600 rounded focus:ring-purple-500 accent-green-500"
+                                    className="w-4 h-4 bg-neutral-900 border-neutral-600 rounded accent-green-500"
                                 />
                                 <span className="text-white text-xs md:text-sm">123</span>
                             </label>
@@ -218,7 +218,7 @@ export default function Generate() {
                                     type="checkbox"
                                     checked={includeSymbols}
                                     onChange={(e) => setIncludeSymbols(e.target.checked)}
-                                    className="w-4 h-4 text-purple-600 bg-neutral-900 border-neutral-600 rounded focus:ring-purple-500 accent-green-500"
+                                    className="w-4 h-4 bg-neutral-900 border-neutral-600 rounded accent-green-500"
                                 />
                                 <span className="text-white text-xs md:text-sm">#$&</span>
                             </label>
@@ -228,7 +228,7 @@ export default function Generate() {
                     {/* Botón generar */}
                     <button
                         onClick={generatePassword}
-                        className="flex items-center justify-center gap-2 bg-neutral-200 hover:opacity-80 transition-opacity duration-200 px-4 py-3 rounded-lg font-semibold text-xs xl:text-sm w-full"
+                        className="flex items-center justify-center gap-2 bg-neutral-200 hover:opacity-80 focus:opacity-60 transition-opacity duration-200 px-4 py-3 rounded-lg font-semibold text-xs xl:text-sm w-full cursor-pointer"
                     >
                         <KeySquareIcon className="size-4 sm:size-5" />
                         Generar Nueva Contraseña

@@ -9,7 +9,7 @@ export default function Recomendaciones() {
             {/* Título */}
             <header className="w-full text-center py-4 sm:py-5 px-5 space-y-2">
                 <h1 className="text-3xl lg:text-4xl font-black text-neutral-300 leading-tight">
-                    Conoce algunas recomendaciones
+                    Conoce Algunas Recomendaciones
                 </h1>
                 <p className="text-neutral-600 max-sm:max-w-xs max-sm:mx-auto">
                     Para crear contraseñas seguras y proteger tu información. ⭐

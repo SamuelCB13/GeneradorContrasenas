@@ -42,24 +42,24 @@ export default function Navbar() {
                         >
                             Generar
                         </Link>
-                        {/* <Link
+                        <Link
                             href="#verify"
                             className="text-white hover:text-neutral-400 transition-colors duration-200 font-medium"
                         >
                             Verificar
-                        </Link> */}
+                        </Link>
                         <Link
                             href="#recommendations"
                             className="text-white hover:text-neutral-400 transition-colors duration-200 font-medium"
                         >
                             Recomendaciones
                         </Link>
-                        {/* <Link
+                        <Link
                             href="#pqrs"
                             className="text-white hover:text-neutral-400 transition-colors duration-200 font-medium"
                         >
                             PQR&apos;s
-                        </Link> */}
+                        </Link>
                     </nav>
                 </section>
 
@@ -145,13 +145,13 @@ export default function Navbar() {
                         >
                             Generar
                         </Link>
-                        {/* <Link
+                        <Link
                             href="#verify"
                             className="text-white hover:text-neutral-300 transition-colors duration-200 font-medium"
                             onClick={() => setIsMenuOpen(false)}
                         >
                             Verificar
-                        </Link> */}
+                        </Link>
                         <Link
                             href="#recommendations"
                             className="text-white hover:text-neutral-300 transition-colors duration-200 font-medium"
@@ -159,13 +159,13 @@ export default function Navbar() {
                         >
                             Recomendaciones
                         </Link>
-                        {/* <Link
+                        <Link
                             href="#pqrs"
                             className="text-white hover:text-neutral-300 transition-colors duration-200 font-medium"
                             onClick={() => setIsMenuOpen(false)}
                         >
                             PQR&apos;s
-                        </Link> */}
+                        </Link>
 
                         {/* Redes sociales en menú móvil */}
                         <div className="flex items-center justify-end space-x-4 pt-4 border-t border-neutral-700 sm:hidden">
