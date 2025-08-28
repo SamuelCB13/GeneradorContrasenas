@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import { useEffect } from "react";
 import { toast } from "@pheralb/toast";
 import Generate from "@/components/Generate";
+import Recomendaciones from "@/components/Recomendaciones";
 // import Verify from "@/components/Verify";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <Hero />
             <Generate />
             {/* <Verify /> */}
+            <Recomendaciones />
         </section>
     );
 }

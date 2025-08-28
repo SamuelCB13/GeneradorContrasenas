@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="flex-1 flex items-center justify-center md:order-2 space-x-3 md:space-x-5 rtl:space-x-reverse">
                         {/* Botón de contacto */}
                         <Link
-                            href="https://www.facebook.com/Samuel.Carvajal13"
+                            href="https://github.com/SamuelCB13"
                             target="_blank"
                             className="rounded-full text-sm text-center transition duration-200"
                         >
@@ -60,7 +60,7 @@ export default function Footer() {
                 </div>
                 <div className="max-w-screen-lg flex items-center justify-center mx-auto p-5 border-t border-neutral-800">
                     <p className="text-sm text-neutral-500 text-center">
-                        © {new Date().getFullYear()} Generador de Contraseñas Esece | Desarrollado con 🤍 por →{" "} <Link href={"https://samuel-c.vercel.app"} className="text-white italic">Samuel C.</Link>
+                        © {new Date().getFullYear()} Generador de Contraseñas Esece | Desarrollado con 🤍 por →{" "} <Link href={"https://samuel-c.vercel.app"} className="text-white">Samuel C.</Link>
                     </p>
                 </div>
             </footer>
